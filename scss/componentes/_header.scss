@@ -1,0 +1,21 @@
+// Mi header y nav
+header{
+     display: flex;
+    background-color: burlywood;
+    padding: 5px;
+    justify-content: space-between; 
+    font-size: 70px;
+    transition: transform 1.3s; 
+    a{
+        text-decoration: none;
+        color: black;
+        transition: transform 1.3s;
+    }
+    a:hover{
+        transform:scale(1.2);
+        margin-left: 15px;
+    }
+    li{
+        padding: 20px;
+    }
+}

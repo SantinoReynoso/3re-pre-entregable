@@ -1,0 +1,21 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: burlywood;
+    border:solid gray 1px;
+    transition: transform 0.5s;
+    .card{
+        margin-bottom: 75px;
+        img{
+            border-radius: 100px;
+        } 
+    }
+}
+.alert{
+    display: flex;
+    font-size: 50px;
+    padding: 100px;
+    justify-content: center;
+}

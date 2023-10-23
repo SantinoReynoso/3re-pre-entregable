@@ -1,0 +1,28 @@
+.dropdown{
+    display: none;
+}
+@media (max-width:1023px) {
+    /* logo y titulo */
+    .logoytitulo img{
+       height: 90px;
+       width: auto;
+       border-radius: 100%;
+    }
+    .caja-since-2009{
+       display: none;
+    }
+   /* header menu */
+   .nav{
+       display: none;
+   }
+   .dropdown{
+       display: inline;
+       display: flex;
+       justify-content: start;
+       padding: 75px;
+       margin-bottom: 100px;
+   }
+   .card{
+       border: solid black;
+   }
+}
