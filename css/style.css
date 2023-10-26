@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f8f7e7;
 }
 
-.logoytitulo {
+header .logoytitulo {
   display: flex;
   align-items: flex-start;
   margin-top: -10px;
@@ -15,31 +21,31 @@ body {
   justify-content: center;
   transition: transform 0.3s;
 }
-.logoytitulo h1 {
+header .logoytitulo h1 {
   font-size: 70px;
   color: #2e897f;
   text-align: center;
   font-style: normal;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
   margin-top: 40px;
 }
-.logoytitulo :hover {
+header .logoytitulo :hover {
   transform: scale(1.2);
   margin-left: 15px;
 }
-.logoytitulo img {
+header .logoytitulo img {
   width: 200px;
   height: auto;
   margin-right: 50px;
   border-radius: 25px;
 }
-.logoytitulo .caja-since-2009 {
+header .logoytitulo .caja-since-2009 {
   display: flex;
   align-items: center;
   margin-top: 19px;
   text-align: center;
 }
-.logoytitulo h2 {
+header .logoytitulo h2 {
   display: inline-block;
   color: #2e897f;
   background-color: #f9f1c8;
@@ -48,25 +54,16 @@ body {
   border-radius: 10px;
   padding: 5px;
 }
-
-header {
+header nav {
   display: flex;
   background-color: burlywood;
   padding: 5px;
   justify-content: space-between;
-  font-size: 70px;
-  transition: transform 1.3s;
+  font-size: 40px;
+  transition: transform 1.5s;
+  text-align: center;
 }
-header a {
-  text-decoration: none;
-  color: black;
-  transition: transform 1.3s;
-}
-header a:hover {
-  transform: scale(1.2);
-  margin-left: 15px;
-}
-header li {
+header nav ul li {
   padding: 20px;
 }
 

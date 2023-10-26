@@ -4,16 +4,14 @@ footer{
     background-color: #333;
     color: #fff;
     padding: 20px 0px;
-
     a{
         text-decoration: none;
-    color: snow;
-    }
+        color: snow;
+        }
     .listafooter{
         list-style-type: none;
-    padding-right: 5%;
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos de manera equitativa */
-
-    }
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-between; /* Distribuye los elementos de manera equitativa */
+        }
 }
