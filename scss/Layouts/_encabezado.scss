@@ -1,11 +1,9 @@
 //mi encabezado
 header{
+    overflow-x: hidden;
 .logoytitulo {
     display: flex;
     align-items: flex-start;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
     padding: 100px;
     background-color: burlywood;
     border-radius: 10px;
@@ -61,5 +59,11 @@ nav{
             padding: 20px;
             }
         }
+    }
+    h4{
+        display: flex;
+        justify-content: center;
+        background-color: #2e897f;
+        align-items: center;
     }
 }
