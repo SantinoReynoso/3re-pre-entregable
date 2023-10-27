@@ -36,16 +36,18 @@ header .logoytitulo :hover {
   margin-left: 15px;
 }
 header .logoytitulo img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
   margin-right: 50px;
   border-radius: 25px;
+  transition: transform 0.5s;
 }
 header .logoytitulo .caja-since-2009 {
   display: flex;
   align-items: center;
   margin-top: 19px;
   text-align: center;
+  transition: transform 0.5s;
 }
 header .logoytitulo h2 {
   display: inline-block;
@@ -60,12 +62,15 @@ header nav {
   display: flex;
   background-color: burlywood;
   padding: 5px;
-  justify-content: space-between;
-  font-size: 40px;
+  font-size: 50px;
   transition: transform 1.5s;
   text-align: center;
 }
-header nav ul li {
+header nav ul .nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul .nav li {
   padding: 20px;
 }
 header h4 {
