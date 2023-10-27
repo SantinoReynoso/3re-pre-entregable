@@ -5,12 +5,23 @@
     padding: 100px;
     background-color: burlywood;
     border:solid gray 1px;
-    transition: transform 0.5s;
     .card{
+        .card-text{
+            transition: transform 0.8s;
+        }
         margin-bottom: 75px;
         img{
             border-radius: 100px;
+            transition: transform 0.8s;
         } 
+        :hover{
+            transform:scale(1.1);
+            margin-left: 15px;
+            padding-bottom: 10px;
+            .card-body{
+                padding: 10px;
+            }
+        }
     }
 }
 .alert{
@@ -41,4 +52,7 @@
         display: flex;
         justify-content: center;
     }
+}
+.mapa{
+    @include sizes(auto, auto );
 }

@@ -104,13 +104,24 @@ footer .listafooter {
   padding: 100px;
   background-color: burlywood;
   border: solid gray 1px;
-  transition: transform 0.5s;
 }
 .cards .card {
   margin-bottom: 75px;
 }
+.cards .card .card-text {
+  transition: transform 0.8s;
+}
 .cards .card img {
   border-radius: 100px;
+  transition: transform 0.8s;
+}
+.cards .card :hover {
+  transform: scale(1.1);
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+.cards .card :hover .card-body {
+  padding: 10px;
 }
 
 .alert {
@@ -142,6 +153,11 @@ footer .listafooter {
 .cardsnosotros .card-title {
   display: flex;
   justify-content: center;
+}
+
+.mapa {
+  width: auto;
+  height: auto;
 }
 
 .dropdown {

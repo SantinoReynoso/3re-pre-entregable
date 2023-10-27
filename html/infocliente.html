@@ -25,12 +25,27 @@
     <h4>ESTÁS EN LA PÁGINA DE infocliente</h4> <!-- Mensaje de confirmación de página -->
     <!-- menu principal -->
         <nav>
+          <!-- menu principal para smartphones -->
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">Volver al HOME</a></li>
+                <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                <li><a class="dropdown-item" href="contacto.html">Nosotros</a></li>
+                <li><a class="dropdown-item" href="dondeestamos.html">¿De dónde somos?</a></li>
+                <li><a class="dropdown-item" href="infocliente.html">Quiero recibir ofertas</a></li>
+            </ul>
+        </div>
+        <!-- fin menu principal para smartphones -->
+        <!-- menu principal para desktop-->
         <ul class="nav justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Volver al HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="buymap.html">Productos</a>
+              <a class="nav-link" href="Productos.html">Productos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Nosotros</a>
@@ -42,6 +57,7 @@
                 <a class="nav-link" href="infocliente.html">Quiero recibir ofertas</a>
               </li>
           </ul>
+          <!-- fin menu principal para desktop-->
         </nav>
     </header>
     <!-- Fin del menu principal -->

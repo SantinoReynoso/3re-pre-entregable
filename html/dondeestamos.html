@@ -25,12 +25,27 @@
    <h4>ESTÁS EN LA PÁGINA DE dondeestamos</h4> <!-- Mensaje de confirmación de página -->
    <!-- menu principal -->
        <nav>
+        <!-- menu principal para smartphones -->
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menú
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../index.html">Volver al HOME</a></li>
+              <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+              <li><a class="dropdown-item" href="contacto.html">Nosotros</a></li>
+              <li><a class="dropdown-item" href="dondeestamos.html">¿De dónde somos?</a></li>
+              <li><a class="dropdown-item" href="infocliente.html">Quiero recibir ofertas</a></li>
+          </ul>
+      </div>
+      <!-- fin menu principal para smartphones -->
+      <!-- menu principal para desktop-->
        <ul class="nav justify-content-center">
            <li class="nav-item">
              <a class="nav-link active" aria-current="page" href="../index.html">Volver al HOME</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="buymap.html">Productos</a>
+             <a class="nav-link" href="Productos.html">Productos</a>
            </li>
            <li class="nav-item">
              <a class="nav-link" href="contacto.html">Nosotros</a>
@@ -42,38 +57,51 @@
                <a class="nav-link" href="infocliente.html">Quiero recibir ofertas</a>
              </li>
          </ul>
+         <!-- fin menu principal para desktop-->
        </nav>
    </header>
    <!-- Fin del menu principal -->
- <!-- seccion carrusel -->
- <section>
-   <div id="carouselExampleIndicators" class="carousel slide">
-     <div class="carousel-indicators">
-       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-     </div>
-     <div class="carousel-inner">
-       <div class="carousel-item active">
-         <img src="../assets/imagenes/dietetica-imagen-3.jpeg" class="d-block w-100 " alt="cosas">
-       </div>
-       <div class="carousel-item">
-         <img src="../assets/imagenes/dietetica-imagen-2.jpg" class="d-block w-100 " alt="harinas">
-       </div>
-       <div class="carousel-item">
-         <img src="../assets/imagenes/dietetica-imagen.jpeg" class="d-block w-100 " alt="cositas">
-       </div>
-     </div>
-     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-       <span class="visually-hidden">Previous</span>
-     </button>
-     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-       <span class="visually-hidden">Next</span>
-     </button>
-   </div>
- </section>
+    <!-- área de las listas -->
+  <section class="listas">
+    <h4>¿Donde estamos? <span class="badge bg-secondary">Mapa</span></h4>
+</section>
+<!-- fin área de las listas -->
+   <!-- Sección de carrusel de imágenes -->
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!-- Imágenes del carrusel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/imagenes/mapa.png" class="d-block w-100" alt="mapa">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/imagenes/map.jpg" class="d-block w-100 " alt="mapa2">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/imagenes/banner.png" class="d-block w-100 " alt="banner">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+<!-- Fin de la sección de carrusel -->
+  <!-- área de las listas -->
+  <section class="listas">
+    <h4>PRODUCTOS ENVASADOS <span class="badge bg-secondary">New</span></h4>
+</section>
+<!-- fin área de las listas -->
 <!-- section cards fotos y lorem  -->
 <section class="cards">
  <div class="card" style="width: 40rem;">
