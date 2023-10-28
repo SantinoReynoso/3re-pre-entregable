@@ -161,6 +161,25 @@ footer .listafooter {
   border-bottom: solid gray 5px;
 }
 
+.cardenvios {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cardenvios img {
+  transform: scale(0.5);
+}
+.cardenvios .card-body p {
+  color: black;
+  background-color: burlywood;
+  border-radius: 35%;
+  padding: 25px;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: solid black;
+}
+
 .dropdown {
   display: none;
 }
