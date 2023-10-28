@@ -63,17 +63,15 @@ header nav {
   background-color: burlywood;
   padding: 5px;
   font-size: 50px;
-  transition: transform 1.5s;
+  transition: transform 0.5s;
   text-align: center;
+  border-bottom: solid #2e897f 4px;
 }
 header nav ul .nav {
   display: flex;
   justify-content: space-between;
 }
-header nav ul .nav li {
-  padding: 20px;
-}
-header h4 {
+header nav h4 {
   display: flex;
   justify-content: center;
   background-color: #2e897f;
@@ -155,9 +153,12 @@ footer .listafooter {
   justify-content: center;
 }
 
-.mapa {
-  width: auto;
-  height: auto;
+.carrusel {
+  border-bottom: solid #2e897f 4px;
+}
+
+.titulodestacado {
+  border-bottom: solid gray 5px;
 }
 
 .dropdown {

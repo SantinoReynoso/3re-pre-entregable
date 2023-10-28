@@ -41,7 +41,7 @@ header{
         transition: transform 0.5s; 
     }
     h2{
-        display: inline-block;
+    display: inline-block;
     color: #2e897f;
     background-color:  #f9f1c8;
     font-style: italic;
@@ -56,20 +56,18 @@ nav{
     background-color: burlywood;
     padding: 5px;
     font-size: 50px;
-    transition: transform 1.5s; 
+    transition: transform 0.5s; 
     text-align: center;
+    border-bottom: solid #2e897f 4px;
     ul .nav{
         display: flex;
         justify-content: space-between;
-        li{
-            padding: 20px;
-            }
         }
-    }
     h4{
         display: flex;
         justify-content: center;
         background-color: #2e897f;
         align-items: center;
     }
+}
 }

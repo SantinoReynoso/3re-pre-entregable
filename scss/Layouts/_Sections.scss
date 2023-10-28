@@ -53,6 +53,9 @@
         justify-content: center;
     }
 }
-.mapa{
-    @include sizes(auto, auto );
+.carrusel{
+    border-bottom: solid #2e897f 4px;
+}
+.titulodestacado{
+    border-bottom: solid gray 5px;
 }
