@@ -80,3 +80,15 @@
     }
     
 }
+.nueces{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p{
+        color: $colorsito;
+        background-color: burlywood;
+        text-align: center;
+        text-decoration: solid black;
+    }
+}

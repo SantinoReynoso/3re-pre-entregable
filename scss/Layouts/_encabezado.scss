@@ -59,9 +59,12 @@ nav{
     transition: transform 0.5s; 
     text-align: center;
     border-bottom: solid #2e897f 4px;
+    padding-left: 20px;
     ul .nav{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
         }
     h4{
         display: flex;
