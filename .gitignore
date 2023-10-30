@@ -1,2 +1,4 @@
-.vscode/setting.json
+/.vscode
 package.json
+setting.json
+/node_modules

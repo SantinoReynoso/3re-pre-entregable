@@ -4,8 +4,7 @@
 @media (max-width:1023px) {
     /* logo y titulo */
     .logoytitulo img{
-       height: 90px;
-       width: auto;
+        @include sizes(auto, 90px );
        border-radius: 100%;
     }
     .caja-since-2009{
