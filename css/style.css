@@ -66,13 +66,10 @@ header nav {
   transition: transform 0.5s;
   text-align: center;
   border-bottom: solid #2e897f 4px;
-  padding-left: 20px;
 }
 header nav ul .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
 }
 header nav h4 {
   display: flex;
@@ -203,8 +200,8 @@ footer .listafooter {
 @media (max-width: 1023px) {
   /* logo y titulo */
   .logoytitulo img {
-    height: 90px;
     width: auto;
+    height: 90px;
     border-radius: 100%;
   }
   .caja-since-2009 {
