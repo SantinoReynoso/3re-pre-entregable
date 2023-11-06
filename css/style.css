@@ -197,8 +197,50 @@ footer .listafooter {
   display: none;
 }
 
+@media (max-width: 580px) {
+  body {
+    width: 75% align-items center;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logoytitulo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .logoytitulo img {
+    width: auto;
+    height: 50px;
+    display: flex;
+  }
+  .logoytitulo h1 {
+    display: none;
+  }
+  .logoytitulo .caja-since-2009 h2 {
+    display: none;
+  }
+  .cardenvios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .nueces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
 @media (max-width: 1023px) {
-  /* logo y titulo */
+  body {
+    width: 75% align-items center;
+    text-align: center;
+    overflow-x: hidden;
+  }
   .logoytitulo img {
     width: auto;
     height: 90px;
